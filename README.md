@@ -2,24 +2,36 @@
 REST API using python and flask. Data stored in mongodb
 
 # Create a virtual environment and use it
-- mkvirtualenv python-flask-mongodb
-- workon python-flask-mongodb
+```bash
+mkvirtualenv python-flask-mongodb
+workon python-flask-mongodb
+```
 
 # Install the dependencies using pip
-- pip3 install -r requirements.txt
+```bash
+pip3 install -r requirements.txt
+```
 
 # Install MongoDb and start its daemon
-- mongod
+```bash
+mongod
+```
 
-# Login into the mongo shell and create a database
-- mongo
-- use python_flask_mongodb
+# Login into the mongo shell and create a database named python_flask_mongodb
+```bash
+mongo
+use python_flask_mongodb
+```
 
 # Run the app
+```bash
 python3 application.py
+```
 
 # Browse the app in
+```json
 http://127.0.0.1:5000/
+```
 
 # Create single user using curl
 ```json
